@@ -1,0 +1,3 @@
+In this lab, different TCP protocols are tested with their features.
+Be aware of the Max-Min fairness that TCP obeys.
+In particular, the TCP Reno and TCP BBR are tested by me.
