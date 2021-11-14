@@ -14,3 +14,9 @@ And then do the following three questions:
    (hint: consider using OFPGT_FF (FF is short for "fast failover") to construct a group table)
 
 The third problem is so hard that I cannot figure it out yet.
+
+About the file name:
+Remote_control.py is the topology, it should be run on Mininet
+simple_switch_13.py is the solution for question 1
+sample.py is the solution for question 2
+t4.py is a half-built program that still has ARP storm
