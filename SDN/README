@@ -1,0 +1,16 @@
+SDN(Software Defined Network) is widely used to define the behavior of a switch in the network.
+This lab construct following topology
+        s3
+      /    \
+h1 - s1     s2 - h2
+      \    /
+        s4
+And then do the following three questions:
+1. Write a RYU controller that switches paths (h1-s1-s3-s2-h2 or h1-s1-s4-s2-h2) between h1 and h2 every 5 seconds. 
+2. Write a RYU controller that uses both paths to forward packets from h1 to h2.
+3. Write a RYU controller that uses the first path (h1-s1-s3-s2-h2) for routing packets 
+   from h1 to h2 and uses the second path for backup. Specifically, when the first path experiences a link failure, 
+   the network should automatically switch to the second path without causing packet drop. 
+   (hint: consider using OFPGT_FF (FF is short for "fast failover") to construct a group table)
+
+The third problem is so hard that I cannot figure it out yet.
